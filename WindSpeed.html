@@ -1,0 +1,144 @@
+<!--HW10_HTML+CSS >> WIND SPEED-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head class="head">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Frimpter HW10</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Frimpter HW10_HTML_CSS.css">
+</head>
+
+<body class="body">
+
+    <!--NAVIGATION BAR-->
+    <div class="container-fluid">
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand text-secondary" href="Frimpter HW10_HTML_CSS.html">
+                <h2>Weather Analysis Home</h2>
+            </a>
+            <ul>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="Temperature.html">Temperature</a>
+                        <a class="dropdown-item" href="WindSpeed.html">Wind Speed</a>
+                        <div class="dropdown-divider"></div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Data.html">Data</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!--ROW 1-->
+    <div class="row">
+        <br>
+    </div>
+
+    <!--ROW 2-->
+
+    <div class="row">
+        <!--COLUMN 1-->
+        <div class="col-sm-12 col-md-8 px-4" background-color="#ffffff">
+            <br>
+            <h1 class="display-4 text-info">
+                <strong>Wind Speed Analysis</strong>
+            </h1>
+            <br>
+
+            <img src="HW6_Latitude_vs_WindSpeed.png" class="figure-img img-responsive rounded float-left gap-right" alt="An amazing Pandas figure generated from scratch with luv."
+                width="50%">
+
+            <p class="lead text-justify">The analysis of wind speed was generally unremarkable. The day of analysis did not show any particularly high wind speeds from the entire sample of cities, with the max wind speed about 30 mph on the day. Cities in the Northern Hemisphere, which were represented more in the analysis overall, had typically low wind speeds, with no outstanding trends based on latitude except that those with the higher wind speeds tended to be roughly mid-way between the Tropic of Cancer and Arctic Circle.
+            </p>
+
+        </div>
+
+        <!--COLUMN 2-->
+        <div class="col-sm-12 col-md-4 border border-info rounded">
+            <div class="row bg-info">
+                <br>
+                <h1 class="h1 text-white">Visualizations</h1>
+                <br>
+            </div>
+
+            <!--Two columns with thumbnails of the available images-->
+            <div class="row bg-white">
+                <div class="col-md-6">
+                    <br>
+                    <div class="thumbnail">
+                        <a href="Cloudiness.html" class="a">
+                            <img src="HW6_Latitude_vs_Cloudiness.png" alt="Fig1" style="width:75%">
+                            <div class="caption">
+                                <p>Cloudiness</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <br>
+                    <div class="thumbnail">
+                        <a href="Humidity.html" class="a">
+                            <img src="HW6_Latitude_vs_Humidity.png" alt="Fig 2" style="width:75%">
+                            <div class="caption">
+                                <p>Humidity</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row bg-white">
+                <div class="col-md-6">
+                    <div class="thumbnail">
+                        <a href="Temperature.html" class="a">
+                            <img src="HW6_Latitude_vs_Temperature.png" alt="Fig3" style="width:75%">
+                            <div class="caption">
+                                <p>Temperature</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="thumbnail">
+                        <a href="WindSpeed.html" class="a">
+                            <img src="HW6_Latitude_vs_WindSpeed.png" alt="Fig 4" style="width:75%">
+                            <div class="caption">
+                                <p>Wind Speed</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!--End thumbnails-->
+
+        </div>
+
+    </div>
+    <div class="row">
+        <br>
+        <br>
+    </div>
+</body>
+
+<footer class="page-footer font-small bg-light text-center">
+    <br>
+    <br>
+    <p class="text-muted">Copyright Frimpter 2018</p>
+    <br>
+</footer>
+
+</html>
