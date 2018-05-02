@@ -1,0 +1,118 @@
+<!--HW10_HTML+CSS >> COMPARISON-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head class="head">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Frimpter HW10</title>
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="Frimpter HW10_HTML_CSS.css">
+</head>
+
+<body class="body">
+
+    <!--NAVIGATION BAR-->
+    <div class="container-fluid">
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand text-secondary" href="Frimpter HW10_HTML_CSS.html">
+                <h2>Weather Analysis Home</h2>
+            </a>
+            <ul>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="Temperature.html">Temperature</a>
+                        <a class="dropdown-item" href="WindSpeed.html">Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Data.html">Data</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!--ROW 1-->
+    <div class="row">
+        <br>
+    </div>
+
+    <!--ROW 2-->
+
+    <div class="row">
+        <div class="col-sm-12 col-md-12 px-4" background-color="#ffffff">
+            <br>
+            <h1 class="display-4 text-info">
+                <strong>Comparison: City Latitude by Measured Weather Parameters</strong>
+            </h1>
+            <br>
+            <p class="lead text-justify">Click any plot for more in-depth analysis on that measurement.</p>
+            <br>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 col-sm-12 text-center">
+            <br>
+            <h2 class="display-4 text-info text-center">Temperature</h2>
+            <br>
+            <a href="Temperature.html"><img src="HW6_Latitude_vs_Temperature.png" class="figure-img img-responsive" alt="An amazing Pandas figure generated from scratch with luv." width="90%"></a>
+
+        </div>
+        <div class="col-md-6 col-sm-12 text-center">
+            <br>
+            <h2 class="display-4 text-info text-center">Humidity</h2>
+            <br>
+            <a href="Humidity.html"><img src="HW6_Latitude_vs_Humidity.png" class="figure-img img-responsive" alt="An amazing Pandas figure generated from scratch with luv." width="90%"></a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 col-sm-12 text-center">
+            <br>
+            <h2 class="display-4 text-info text-center">Cloudiness</h2>
+            <br>
+            <a href="Cloudiness.html"><img src="HW6_Latitude_vs_Cloudiness.png" class="figure-img img-responsive" alt="An amazing Pandas figure generated from scratch with luv." width="90%"></a>
+        </div>
+    
+        <div class="col-md-6 col-sm-12 text-center">
+            <br>
+            <h2 class="display-4 text-info text-center">Wind Speed</h2>
+            <br>
+            <a href="WindSpeed.html"><img src="HW6_Latitude_vs_WindSpeed.png" class="figure-img img-responsive" alt="An amazing Pandas figure generated from scratch with luv." width="90%"></a>
+        </div>
+    </div>
+
+    <div class="row">
+        <br>
+        <br>
+    </div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+    crossorigin="anonymous"></script>
+
+</body>
+
+<footer class="page-footer font-small bg-light text-center">
+    <br>
+    <br>
+    <p class="text-muted">Copyright Frimpter 2018</p>
+    <br>
+</footer>
+
+</html>
